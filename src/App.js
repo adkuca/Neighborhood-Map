@@ -27,6 +27,7 @@ class App extends Component {
 	onCloseInfoWindow = undefined;
 	infoWindow = undefined;
 
+	// setup map and its markers
 	initMap = map => {
 		this.setState({ map: map });
 		this.infoWindow = new window.google.maps.InfoWindow();
@@ -54,6 +55,7 @@ class App extends Component {
 		this.state.map.fitBounds(bounds);
 	}
 
+	// creates an Infowindow on a location/marker when DOM is ready
 	createInfoWindow(marker, infoWindow, map) {
 		if (this.onReadyInfoWindow) window.google.maps.event.removeListener(this.onReadyInfoWindow);
 		if (this.onCloseInfoWindow) window.google.maps.event.removeListener(this.onCloseInfoWindow);
@@ -73,6 +75,7 @@ class App extends Component {
 		this.infoWindow.marker = null;
 	}
 
+	// searches for locations and renders list and markers accordingly
 	searchLocs = e => {
 		this.setState(
 			{
@@ -94,6 +97,7 @@ class App extends Component {
 		);
 	};
 
+	// zooms into provided location and creates an Infowindow
 	onItemClick = loc => {
 		this.clearInfoWindow();
 		let sMarker = undefined;

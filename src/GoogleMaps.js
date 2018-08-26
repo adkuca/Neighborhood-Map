@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class GoogleMaps extends Component {
+	// creates an async script
 	componentDidMount() {
 		if (!window.google) {
 			const s = document.createElement('script');
