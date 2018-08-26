@@ -13,6 +13,9 @@ To get started developing right away:
 
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
+* build for production with `npm build`
+
+>Live GitHub Page - [Neighborhood-Map](https://adkuca.github.io/Neighborhood-Map)
 
 ## APIs Used
 
