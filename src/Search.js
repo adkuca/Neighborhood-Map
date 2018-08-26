@@ -5,6 +5,7 @@ function Search(props) {
 		<input
 			className="search-input"
 			type="text"
+			role="search"
 			placeholder="Search locations..."
 			onChange={e => props.searchLocs(e)}
 		/>
