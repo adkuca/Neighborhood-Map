@@ -88,14 +88,17 @@
 }
 
 .info {
+	max-width: 80vw;
 	width: 300px;
 }
 
 .info-title {
+	font-size: 1.6em;
 }
 
 .info-text {
 	padding: 8px 0;
+	font-size: 1.4em;
 }
 
 .menu {
@@ -216,9 +219,6 @@
 		width: 60px;
 	}
 
-	.sidebar-heading {
-	}
-
 	.nav {
 		position: absolute;
 		visibility: visible;
@@ -233,14 +233,19 @@
 		top: -320px;
 	}
 
-	.search-input {
-	}
-
 	.list-item {
 		margin: 10px 0;
 	}
 
 	.menu {
 		display: block;
+	}
+
+	.info-title {
+		font-size: 1.4em;
+	}
+
+	.info-text {
+		font-size: 1.2em;
 	}
 }

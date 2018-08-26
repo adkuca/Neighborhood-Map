@@ -31,7 +31,7 @@ class Sidebar extends Component {
 
 		return (
 			<aside className="sidebar">
-				<header className="sidebar-header" role='heading' aria-level='1'>
+				<header className="sidebar-header" role="heading" aria-level="1">
 					<h1 className="sidebar-heading">
 						Croatias <br />
 						National Parks
