@@ -44,7 +44,7 @@ class InfoWindow extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="info">
 				<h3 className="info-title">{this.props.marker.title}</h3>
 				<p className="info-text">{this.state.wiki}</p>
 			</div>
