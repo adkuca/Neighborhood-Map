@@ -87,11 +87,6 @@
 	color: #c25903;
 }
 
-/* .list-item > h2 {
-	display: inline-block;
-	cursor: pointer;
-} */
-
 .info {
 	width: 300px;
 }
@@ -112,6 +107,7 @@
 	background-color: transparent;
 	cursor: pointer;
 	text-align: initial;
+	border: none;
 }
 
 .menu__icon {

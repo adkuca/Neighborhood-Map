@@ -20,7 +20,7 @@ class GoogleMaps extends Component {
 	};
 
 	render() {
-		return <div id={this.props.id} />;
+		return <div id={this.props.id} role="application" aria-label="location" />;
 	}
 }
 
